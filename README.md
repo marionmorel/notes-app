@@ -2,6 +2,10 @@
 
 Simple notes app created with React.
 
+## Preview
+
+![preview]('https://s3.ezgif.com/tmp/ezgif-3-800458f525.gif')
+
 ## Prerequisites
 
 - HTML
