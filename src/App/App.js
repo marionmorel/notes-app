@@ -44,7 +44,7 @@ const App = () => {
       <h1>Notes App</h1>
       <SearchBar handleSearchNote={setSearchText}/>
       <NotesList 
-        notes={notes.filter((note) => note.text.toLowerCase().includes(searchText))} 
+        notes={notes.filter((note) => note.text.toLowerCase().includes(searchText.toLowerCase()))} 
         handleAddNote={addNote}
         handleDeleteNote={deleteNote}
       />
