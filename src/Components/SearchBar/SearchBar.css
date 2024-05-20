@@ -1,0 +1,23 @@
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #C5E1E7;
+    width: 350px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #3d5151;
+}
+
+.SearchBar i {
+    margin-right: 10px;
+}
+
+.SearchBar input {
+    width: 300px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}

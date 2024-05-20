@@ -1,0 +1,99 @@
+html {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #3d5151;
+  background-color: #E2F0F3;
+}
+
+h1 {
+  font-family: 'Yeseva One', serif;
+  text-align: center;
+  font-style: italic;
+}
+
+.fa-circle-plus {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  color: #56878A;
+}
+
+.fa-circle-plus:hover {
+  cursor: pointer;
+  color: #70a8ab;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans;
+}
+
+.close:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+form {
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  align-content: left;
+}
+
+form h2 {
+  text-align: center;
+  font-family: 'Yeseva One', serif;
+}
+
+form .input-field {
+  display: flex;
+  align-items: start;
+  margin: 10px 0;
+}
+
+form input,
+form select,
+form textarea {
+  width: 250px;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #C5E1E7;
+  border: none;
+  border-radius: 5px;
+}
+
+form input,
+form select {
+  height: 1.2rem;
+}
+
+form textarea {
+  height: 3rem;
+}
+
+form span {
+  width: 90px;
+}
+
+form button {
+  margin-top: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 5px;
+  height: 1.7rem;
+  border: none;
+  background-color: #70a8ab;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #81c0c3;
+}
+
