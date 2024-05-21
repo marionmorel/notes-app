@@ -65,3 +65,7 @@
     margin-top: 15px;
     width: 99%;
 }
+
+.new textarea:focus {
+    outline: none;
+}
